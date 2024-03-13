@@ -10,8 +10,8 @@ if number > 0:
 else:
     lastDigit = number % -10
 if lastDigit > 5:
-    print("Last digit of {number} is {lastDigit} and" + a)
+    print("Last digit of {} is {} and ".format(number, lastDigit) + a)
 elif lastDigit == 0:
-    print("Last digit of {number} is {lastDigit} and " + b)
+    print("Last digit of {} is {} and ".format(number, lastDigit) + b)
 else:
-    print("Last digit of {number} is {lastDigit} and " + c)
+    print("Last digit of {} is {} and ".format(number, lastDigit) + c)
